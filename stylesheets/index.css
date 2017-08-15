@@ -1,0 +1,416 @@
+/*首页设置*/
+
+.header {
+    background: #3399cc;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    min-width: 1200px;
+}
+
+#sayhello {
+    font-size: 100px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#arrow {
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    transform: translateX(-50%);
+    animation: bounce 1.5s infinite;
+    transform-origin: center bottom;
+}
+#arrow:hover{
+    cursor: pointer;
+}
+
+
+/*end 首页设置*/
+
+
+/*个人介绍*/
+
+#self {
+    background: #339933;
+    color: #fff;
+    height: 800px;
+    min-width: 1200px;
+}
+
+#self .nav {
+    height: 52px;
+    background: #333333;
+    min-width: 1200px;
+}
+
+#self .navleft-p {
+    float: left;
+    font-size: 16px;
+    line-height: 52px;
+    padding: 0 25px;
+}
+
+#self .nav-ul {
+    float: right;
+}
+
+#self .nav-li {
+    float: left;
+    line-height: 52px;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+#self .nav-li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#self .nav-li a:hover {
+    animation: changecolor 1s;
+    color: #666;
+}
+
+@keyframes changecolor {
+    from {
+        color: #fff;
+    }
+    to {
+        color: #666;
+    }
+}
+
+#profile-pic {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    height: 300px;
+    vertical-align: middle;
+    padding: 60px 0 100px;
+}
+
+.self-div {
+    width: 100px;
+    height: 100px;
+    /*background: #000;*/
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    line-height: 100px;
+    font-family: suXinMouse;
+    font-size: 20px;
+}
+
+.self-div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.self-div p:hover {
+    animation: swing 1.2s;
+    transform-origin: top center;
+}
+
+
+
+/*头像设置*/
+
+.self-div:nth-child(3) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(../images/Tomorrowan.jpg);
+    background-size: 300px;
+}
+
+#profile-text {
+    padding-left: 200px;
+}
+
+#self-ul {
+    float: left;
+}
+
+#self-ul li {
+    height: 30px;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+#self-ul li span {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+.buliding a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buliding a:hover {
+    text-decoration: underline;
+}
+
+#profile-text #text-div {
+    display: inline-block;
+    width: 500px;
+    height: 220px;
+    margin-left: 150px;
+}
+
+#text-div p {
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+
+
+/*end 个人介绍*/
+
+
+/*专业技能*/
+
+#workskill {
+    background: #336699;
+    color: #fff;
+    padding-bottom: 80px;
+    min-width: 1200px;
+}
+
+#skill-container {
+    text-align: center;
+}
+
+#skill-container ul {
+    display: inline-block;
+    margin: 0px 25px 0px 25px;
+    text-align: center;
+    width: 200px;
+    border: 2px solid #fff;
+    height: auto;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+#skill-container ul li {
+    height: 45px;
+    line-height: 45px;
+}
+
+#skill-container ul li:hover {
+    background: #fff;
+    color: #000;
+}
+
+#skill-container ul li:nth-child(1) {
+    background: #fff;
+    color: #000;
+}
+
+
+
+/*end 专业技能*/
+
+
+/*工作经验*/
+
+#workexperience {
+    background: #cc6600;
+    padding-bottom: 80px;
+    min-width: 1200px;
+}
+
+#experience-container {
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+}
+
+#experience-container p {
+    padding-left: 300px;
+}
+
+.timeline {
+    width: 868px;
+    height: 27px;
+    background: url(../images/timeline.png);
+    margin: 0 auto;
+}
+
+.exper-time {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.exper-time span:nth-child(2) {
+    padding-left: 100px;
+}
+
+.work-place {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.work-place span:nth-child(2) {
+    padding-left: 220px;
+}
+
+.work-position {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.work-position span:nth-child(2) {
+    padding-left: 188px;
+}
+
+.work-duty {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.work-duty span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.work-duty span:nth-child(2) {
+    display: inline-block;
+    width: 360px;
+    padding-left: 77px;
+}
+
+
+
+/*end 工作经验*/
+
+
+/*项目经历*/
+
+#project {
+    background: #cccc44;
+    padding-bottom: 80px;
+    min-width: 1200px;
+}
+
+
+
+/*end 项目经历*/
+
+
+/*工作计划*/
+
+#workplan {
+    background: #99cc33;
+    padding-bottom: 80px;
+    min-width: 1200px;
+}
+
+#plan-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plan-content {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin: 0 25px;
+    vertical-align: top;
+}
+
+.plan-content p {
+    color: #fff;
+}
+
+.plan-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.plan-p {
+    width: 300px;
+    padding: 0 10px;
+    word-break: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+
+
+/*end 工作计划*/
+
+
+/*联系方式*/
+
+#selfemail {
+    height: 700px;
+    background: #CC6600;
+    color: #fff;
+    min-width: 1200px;
+}
+
+#selfemail p:first-child {
+    font-size: 28px;
+    width: 600px;
+    line-height: 38px;
+    margin: 0 auto;
+}
+
+.email-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.email-ul {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.email-ul li {
+    line-height: 42px;
+}
+
+.email-ul li span {
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+}
+
+#selfemail ul {
+    font-size: 32px;
+}
+
+
+
+/*end 联系方式*/
+
+
+/*footer */
+
+.footer {
+    background: #ff6666;
+    min-width: 1200px;
+}
+
+.footer p {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
