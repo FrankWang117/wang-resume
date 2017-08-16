@@ -27,10 +27,7 @@
   }
 }
 
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
+
 .wrap {
     width: 1200px;
     min-width: 1200px;

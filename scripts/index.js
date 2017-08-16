@@ -13,9 +13,12 @@ $(function() {
     $(".a-experience").click(function() {
         $.scrollTo('#workexperience', 1000);
     });
-    $(".a-project").click(function() {
-        $.scrollTo('#project', 1200);
+    $(".a-demo").click(function() {
+        $.scrollTo('#exhibition', 1100);
     });
+    // $(".a-project").click(function() {
+    //     $.scrollTo('#project', 1200);
+    // });
     $(".a-plan").click(function() {
         $.scrollTo('#workplan', 1500);
     });
