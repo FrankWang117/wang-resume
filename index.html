@@ -1,233 +1,219 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>王森-resume</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
-</head>
-
-<body>
-    <header>
-        <div class="header">
-            <p id="sayhello">Hello,<span>there</span></p>
-            <p id="arrow"><i class="icon iconfont">&#xe611;</i></p>
-        </div>
-    </header>
-    <section>
-        <div id="self">
-            <div class="nav">
-                <div class="nav-left">
-                    <p class="navleft-p">WangSen</p>
-                </div>
-                <div class="nav.right">
-                    <ul class="nav-ul">
-                        <li class="nav-li"><a class="a-self">个人简介</a></li>
-                        <li class="nav-li"><a class="a-skill">专业技能</a></li>
-                        <li class="nav-li"><a class="a-experience">工作经验</a></li>
-                        <li class="nav-li"><a class="a-demo">DEMO展示</a></li>
+<!DOCTYPE HTML>
 <!--
-                        <li class="nav-li"><a class="a-project">项目经历</a></li> -->
-                        <li class="nav-li"><a class="a-plan">工作计划</a></li>
-                        <li class="nav-li"><a class="a-email">联系邮箱</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="wrap">
-                <div id="profile-pic">
-                    <div class="self-div self-github">
-                        <p><a href="https://github.com/FrankWang1991/resume-tomorrowan" target="_blank"><i class="icon iconfont">&#xe719;</i></a></p>
-                        <p>Github</p>
-                    </div>
-                    <div class="self-div self-blog">
-                        <p><a href="http://blog.csdn.net/peng_9"><i class="icon iconfont">&#xe6a7;</i></a></p>
-                        <p>Blog</p>
-                    </div>
-                    <div class="self-div self-pic">
-                        <a href=""></a>
-                    </div>
-                    <div class="self-div self-weibo">
-                        <p><a href="https://github.com/FrankWang1991/freeCodeCamp"><i class="icon iconfont">&#xe687;</i></a></p>
-                        <p>FCC</p>
-                    </div>
-                    <div class="self-div self-email">
-                        <p><a href="mailto:wsgoodman@163.com"><i class="icon iconfont">&#xe665;</i></a></p>
-                        <p>E-mail</p>
-                    </div>
-                </div>
-                <div id="profile-text">
-                    <ul id="self-ul">
-                        <li><span>姓名</span> | 王森</li>
-                        <li><span>手机</span> | 15301012136</li>
-                        <li><span>邮箱</span> | wsgooddman@163.com</li>
-                        <li><span>所在地</span> | 北京</li>
-                        <li class="buliding"><span>GitHub</span> | <a href="https://github.com/FrankWang1991/">持续建设中</a></li>
-                        <li class="buliding"><span>blog</span> | <a href="http://blog.csdn.net/peng_9">持续建设中</a></li>
-                    </ul>
-                    <div id="text-div">
-                        <p>我是一个做事认真，执行力强的人。</p>
-                        <p> 生活中，善于使用工具来解决自己不懂得问题。会用编程思维去思考问题，时间观念强。</p>
-                        <p>有半年的前端开发经验，熟悉HTML5、CSS3以及JavaScript，能熟练开发符合W3C标准的页面 ，熟练使用jquery框架，为页面添加合适的动态效果。有良好的编码习惯。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  <section>
-        <div id="introduce"></div>
-    </section> -->
-    <!-- 专业技能 -->
-    <section>
-        <div id="workskill">
-            <div class="wrap">
-                <div class="title">
-                    <p>专业技能</p>
-                </div>
-                <div id="skill-container">
-                    <ul>
-                        <li class="">语言</li>
-                        <li>HTML(5)</li>
-                        <li>CSS(3)</li>
-                        <li>JavaScript</li>
-                        <li>NodeJS</li>
-                        <li>SQL</li>
-                    </ul>
-                    <ul>
-                        <li>思想</li>
-                        <li>W3C标准</li>
-                        <li>语义化</li>
-                        <li>表现与结构分离</li>
-                        <li>响应式设计</li>
-                    </ul>
-                    <ul>
-                        <li>框架</li>
-                        <li>jQuery</li>
-                        <li>Bootstrap</li>
-                        <li>React</li>
-                        <li>持续学习中...</li>
-                    </ul>
-                    <ul>
-                        <li>技术</li>
-                        <li>Photoshop</li>
-                        <li>AutoCAD</li>
-                        <li>sublime text3</li>
-                        <li>持续学习中...</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 工作经验 -->
-    <section>
-        <div id="workexperience">
-            <div class="wrap">
-                <div class="title">
-                    <p>工作经验</p>
-                </div>
-                <div id="experience-container">
-                    <p class="exper-time"><span class="first-work">2015.07-2016.12</span><span class="second-work">2017.01-2017.06</p>
-                    <div class="timeline"></div>
-                    <div class="work-content">
-                        <p class="work-place"><span>贵州开磷</span><span>北京一灯科技</span></p>
-                    <p class="work-position"><span>初级地质工程师</span><span>初级web前端工程师</span></p>
-                    <p class="work-duty"><span>利用MineSight、3DMine做矿量计算</span><span>配合美工、运营制作公司日常运营页。制作课程界面，展示本公司能为客户提供的课程详情。解决了公司课程介绍不详细，用户对公司提供的课程不明确等问题。</span></p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- end 工作经验 -->
-    <!-- 作品展示 -->
-    <section>
-        <div id="exhibition">
-            <div class="wrap">
-                <div class="title">
-                    <p>DEMO及作品展示</p>
-                </div>
-                <div class="echibition-container">
-                    <div class="exhi-line exhi-zero">
-                        <div class="exhi-left zero-left">
-                            <p class="line-title zero-title">NodeJS课程介绍</p>
-                            <a href="http://www.yidengxuetang.com/node/"><img class="zero-img" src="images/node.png" alt="Node js page"></a>
-                        </div>
-                        <div class="exhi-right zero-right">
-                            <p class="line-title zero-title">持续添加中...</p>
-                            <a href="https://frankwang1991.github.io/singlePage/"><img class="zero-img" src="images/adding.jpg" alt="adding"></a>
-                        </div>
-                    </div>
-                    <div class="exhi-line exhi-firstline">
-                        <div class="exhi-left firstline-left">
-                            <p class="line-title firstline-title">天气查询</p>
-                            <a href="https://frankwang1991.github.io/singlePage/Show%20the%20Local%20Weather/index.html"><img class="firstline-img" src="images/Show the Local Weather.png" alt="Show the Local Weather page"></a>
-                        </div>
-                        <div class="exhi-right firstline-right">
-                            <p class="line-title firstline-title">随机句子</p>
-                            <a href="https://frankwang1991.github.io/singlePage/Random%20Quote%20Machine/index.html"><img class="firstline-img" src="images/Random Quote Machine.png" alt="Random Quote Machine page"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 项目经历 -->
- <!--    <section>
-        <div id="project">
-            <div class="wrap">
-                <div class="title">
-                    <p>项目经历</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- end 项目经历 -->
-    <!-- 工作计划 -->
-    <section>
-        <div id="workplan">
-            <div class="wrap">
-                <div class="title">
-                    <p>工作计划</p>
-                </div>
-                <div id="plan-container">
-                    <div class="plan-content firstyear ">
-                        <p class="plan-title">第一年</p>
-                        <p class="plan-p">&nbsp;&nbsp;精通HTML(5)、CSS(3)，掌握JavaScript、jQuery等转变为熟练精通HTML(5)、CSS(3)以及精通JavaScript和jQuery等，从了解VUE、React等到熟练使用其构建完整项目。继续深入学习Nodejs。</p>
-                    </div>
-                    <div class="plan-content secondyear">
-                        <p class="plan-title">第二年</p>
-                        <p class="plan-p">&nbsp;&nbsp;继续提高学习,掌握公司生产所需的其他框架以及技能要求。并再次基础上不断地深入，读其源码。知其原理。并向计算机科学其他方向发展。研读基本的计算机算法数据结构等。</p>
-                    </div>
-                    <div class="plan-content thirdyear">
-                        <p class="plan-title">第三年</p>
-                        <p class="plan-p">&nbsp;&nbsp;专研深入，适应前端不断发展的新需求。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end 工作计划 -->
-    <!-- 联系方式  -->
-    <section>
-        <div id="selfemail">
-            <div class="email-container">
-                <p>如想联系我，请看：</p>
-                <ul class="email-ul">
-                    <li><span>邮箱：</span><a href="mailto:wsgoodman@163.com"> wsgoodman@163.com</a></li>
-                    <li><span>电话：</span>153-0101-2136</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- end 联系方式 -->
-    <footer>
-        <div class="footer">
-            <p>事不宜迟</p>
-        </div>
-    </footer>
-    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="scripts/index.js"></script>
-</body>
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>王森 简历</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/King_128px.ico" type="image/x-ico">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Wang Sen</h1>
+						<p>做事认真，执行力强。善于解决问题。<br />
+						built by <a href="https://github.com/FrankWang1991">@wangsen</a> .</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">个人简介</a></li>
+							<li><a href="#first">专业技能</a></li>
+							<li><a href="#second">DEMO展示</a></li>
+							<li><a href="#cta">工作经验</a></li>
+							<li><a href="#plan">工作计划</a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>王森个人简历</h2>
+										</header>
+										<p>我是一个做事认真，执行力强的人。生活中，善于使用工具来解决自己不懂得问题。会用编程思维去思考问题，时间观念强。有半年的前端开发经验，熟悉HTML5、CSS3以及JavaScript，能熟练开发符合W3C标准的页面 ，熟练使用jquery框架，为页面添加合适的动态效果。有良好的编码习惯。</p>
+									<!-- 	<ul class="actions">
+											<li><a href="generic.html" class="button">了解更多</a></li>
+										</ul> -->
+									</div>
+									<span class="image"><img src="images/wangsen.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>专业技能</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style1 fa-code"></span>
+										<h3>使用语言</h3>
+										<p>HTML(5)、CSS(3)、JavaScript、SQL、NodeJS</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>使用框架</h3>
+										<p>jQuery、bootstrap、React。。。</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-diamond"></span>
+										<h3>工作软件</h3>
+										<p>windows、webpack、sublime text3、Photoshop。。。</p>
+									</li>
+								</ul>
+<!-- 								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">了解更多</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>DEMO展示</h2>
+									<p>其中包括自己做的运营页以及freeCodeCamp上的一些小作业<br />也包含自己最近开始写的博客地址以及正在建设中的Github
+									</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1"><a href="http://www.yidengxuetang.com/node/">
+										<span class="icon fa-file-text-o"></span>
+										<strong>Nodejs</strong> 运营页</a>
+									</li>
+									<li class="style2"><a href="https://frankwang1991.github.io/singlePage/Show%20the%20Local%20Weather/index.html">
+										<span class="icon fa-cloud"></span>
+										<strong>Local Weacher</strong> freeCodeCamp</a>
+									</li>
+									<li class="style3"><a href="https://frankwang1991.github.io/singlePage/Random%20Quote%20Machine/index.html">
+										<span class="icon fa-quote-left"></span>
+										<strong>Random Quote</strong> freeCodeCamp</a>
+									</li>
+									<li class="style4"><a href="http://blog.csdn.net/peng_9">
+										<span class="icon fa-pencil"></span>
+										<strong>My Blog</strong> in CSDN</a>
+									</li>
+									<li class="style5"><a href="https://github.com/FrankWang1991/">
+										<span class="icon fa-github"></span>
+										<strong>Github</strong> building</a>
+									</li>
+								</ul>
+								<p class="content">详细说明：Nodejs运营页是公司项目需求-制作便于客户详细了解课程的界面。据此，自己通过使用CSS3的animate、jQuery的交互制作了一页简单详细的页面，客户能通过此页面详细了解本公司提供的服务。而freeCodeCamp两个页面是通过获取JSON数据，展示给用户。写Blog是近期才开始的一项活动，将自己编程中遇到的问题以及查阅资料从而解决的方法记录下来。算是一种学习笔记，也避免其他伙伴们碰到这样的问题不知道如何解答。Github是近期开始将自己制作的简单页面放在Github page上。</p>
+<!-- 								<footer class="major">
+									<ul class="actions">
+										<li><a href="https://github.com/FrankWang1991/singlePage" class="button">立即查看</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>工作经验</h2>
+									<p>于2015年6月毕业于湖南科技大学地质系。<br /></p>
+								</header>
+
+								<footer class="major">
+									<ul class="actions">
+										<li><p class="firstwork"><span>2015.07-2017.03</span><br />贵州开磷-初级地质工程师<br />利用MineSight、3DMine做矿量计算</p>
+									<!-- 		<a href="generic.html" class="button special">Get Started</a> -->
+										</li>
+										<li><p class="firstwork"><span>2017.04-2017.08</span><br />北京一灯科技-初级web前端工程师<br />配合美工、运营制作公司日常运营页。制作课程界面，展示本公司能为客户提供的课程详情。<br />解决了公司课程介绍不详细，用户对公司提供的课程不明确等问题。
+											<!-- <a href="generic.html" class="button">Learn More</a> -->
+										</li>
+									</ul>
+								</footer>
+							</section>
+	<!-- plan Section -->
+							<section id="plan" class="main special">
+								<header class="major">
+									<h2>工作计划</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style1 fa-laptop"></span>
+										<h3>第一年</h3>
+										<p>  精通HTML(5)、CSS(3)，掌握JavaScript、jQuery等转变为熟练精通HTML(5)、CSS(3)以及精通JavaScript和jQuery等，从了解VUE、React等到熟练使用其构建完整项目。继续深入学习Nodejs。</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-paper-plane-o"></span>
+										<h3>第二年</h3>
+										<p>继续提高学习,掌握公司生产所需的其他框架以及技能要求。并再次基础上不断地深入，读其源码。知其原理。并向计算机科学其他方向发展。研读基本的计算机算法数据结构等。</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-keyboard-o"></span>
+										<h3>第三年</h3>
+										<p>专研深入，适应前端不断发展的新需求。</p>
+									</li>
+								</ul>
+								<!-- <footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">了解更多</a></li>
+									</ul>
+								</footer> -->
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>个人其他</h2>
+							<p>喜欢前端。如果自己做出来的东西能使人感到快乐，那将是一件非常令自己愉悦的事情。为此，需要做出不懈努力。生活中喜欢健身，保持良好的体力。也喜欢每天工作结束后晚上几局OW。近期打算提升英语听说读写能力。</p>
+<!-- 							<ul class="actions">
+								<li><a href="generic.html" class="button">了解更多</a></li>
+							</ul> -->
+						</section>
+						<section>
+							<h2>联系方式</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>北京-昌平</dd>
+								<dt>Phone</dt>
+								<dd>153-0101-2136</dd>
+								<dt>Email</dt>
+								<dd><a href="mailto:wangsen9108@gmail.com">wangsen9108@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="http://blog.csdn.net/peng_9" class="icon fa-book alt"><span class="label">CSDN</span></a></li>
+								<li><a href="https://github.com/FrankWang1991/freeCodeCamp" class="icon fa-free-code-camp alt">
+									<span class="label">freeCodeCamp</span></a></li>
+								<li><a href="mailto:wangsen9108@gmail.com" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/FrankWang1991/" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+<!-- 								<li><a href="#" class="icon fa-weixin alt"><span class="label">weixin</span></a></li> -->
+							</ul>
+						</section>
+						<p class="copyright">&copy; 王森简历 <a href="https://github.com/FrankWang1991/wang-resume">Github</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
