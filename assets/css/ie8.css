@@ -1,61 +1,69 @@
 
-/* Type */
-
-	body {
-		color: #ffffff;
-	}
-
 /* Button */
 
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
 	.button {
 		position: relative;
-		border: solid 1px !important;
-	}
-
-		.button.special {
-			border: none !important;
-		}
-
-/* Icon */
-
-	.icon.major {
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		.icon.major:before {
-			font-size: 4em;
-			border: 0;
-		}
+/* Form */
 
-/* Spotlight */
-
-	.spotlight .image {
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		.spotlight .image img {
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		height: 2.75em;
+		line-height: 2.75em;
+	}
+
+	input[type="checkbox"] + label:before,
+	input[type="radio"] + label:before {
+		display: none;
+	}
+
+/* Image */
+
+	.image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.image:before, .image:after {
+			display: none !important;
+		}
+
+		.image img {
 			position: relative;
 			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
-/* Features */
+/* Header */
 
-	.features li {
-		width: 29%;
+	#header {
+		background-image: url("../../images/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
+
+		#header h1 {
+			color: #ffffff;
+		}
 
 /* Footer */
 
-	#footer > * {
-		width: 50%;
-		margin-left: 0;
-	}
-
-/* Main */
-
-	#main > .main > .image.main:first-child {
-		margin-top: 0;
-		margin-left: 0;
-		width: 100%;
+	#footer .icons a {
+		color: #ffffff;
 	}
